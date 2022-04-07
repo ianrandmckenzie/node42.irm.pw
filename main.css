@@ -1,0 +1,78 @@
+body {
+  font-family: monospace;
+  background-color: #333333;
+  color: rgb(0,255,0);
+}
+
+.subhead-txt {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.vh-100 button,
+.vh-100 a,
+.vh-100 .btn,
+.btn-primary {
+  color: rgb(0,255,0);
+  background-color: #000000;
+  padding: 10px 15px;
+}
+
+.vh-100 button:hover,
+.vh-100 a:hover,
+.vh-100 .btn:hover {
+  color: white;
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+
+.txt-msg {
+  background-color: greenyellow;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.footerToggle {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
+
+#collapsedFooter {
+  position: fixed;
+  bottom: 15px;
+  left: 115px;
+}
+
+#collapsedFooter {
+  z-index: 2;
+  background-color: #444444;
+}
+
+#collapsedFooter a {
+  color: white;
+  text-decoration: underline;
+}
+
+#collapsedFooter a:hover {
+  color: rgb(0,255,0);
+}
+
+.footerToggle {
+  z-index: 3;
+}
+
+.footerToggle button:focus {
+  background-color: white;
+  color: black;
+}
+
+.footerToggle button:hover {
+  background-color: rgb(0,255,0);
+  color: black;
+}
